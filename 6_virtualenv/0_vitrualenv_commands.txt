@@ -1,0 +1,15 @@
+pip3 install virtualenv
+virtualenv venv
+source venv/bin/activate
+ ...
+
+ pip install ...
+
+ pip freeze
+ pip freeze > requirements.txt       ->  export dependencies
+
+ pip install -r requirements.txt     ->  import dependencies
+
+ ...
+deactivate
+
